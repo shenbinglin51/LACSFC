@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: lacsfc
+Version: 0.1.0
+Summary: Learning Adjacency-Continuous Space-Filling Curves for multidimensional range queries
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Provides-Extra: exp
+Requires-Dist: ortools>=9.10; extra == "exp"
+Provides-Extra: fast
+Requires-Dist: numba>=0.60; extra == "fast"
+
+# LACSFC
+
+Learning Adjacency-Continuous Space-Filling Curves for Efficient Multidimensional Range Queries.
+
+Workload-driven construction of **adjacency-continuous (AC)** Hamiltonian paths on
+d-dimensional grids, via N-d Cover-and-Merge with exact `ΔΦ` edge weights and a
+maximum-weight spanning tree (MWST). See `docs/technical_plan.md` for the full
+technical plan, theorems and experiment protocol.
+
+## Layout
+
+```
+lacsfc/
+  docs/technical_plan.md   technical plan (theory, algorithms, experiments)
+  src/lacsfc/
+    grid.py        shape validation, parity masks, coordinate helpers
+    gray.py        reflected Gray block cycle, facet-edge assignment (Lemma L-σ′)
+    weights.py     co-coverage J(u, u+e_k) via d-dim difference arrays
+    construct.py   initial cycles, merge squares, ΔΦ, MWST, Cover-and-Merge, path
+    metrics.py     Φ, segment counts, UB0 upper bound
+    baselines.py   snake (AC), Z-order, Hilbert (Skilling)
+    workloads.py   synthetic range-query generators
+  tests/           E0 correctness tests
+```
+
+## Setup
+
+```bash
+conda activate lacsfc
+pip install -e ".[dev]"
+pytest -q
+```
+
+## Minimal usage
+
+```python
+import numpy as np
+from lacsfc import build_curve, pair_weights, random_boxes
+
+shape = (16, 16, 8)
+rng = np.random.default_rng(0)
+lo, hi = random_boxes(shape, 2000, rng)
+J = pair_weights(shape, lo, hi)
+curve = build_curve(shape, J)
+curve.order   # flat cell indices along the AC path, order[0] == 0
+curve.rank    # rank[cell] = position along the path
+```
+
+Reference: the 2D merge rule follows the NSFC code in `../basic/context.py`
+(`apply_mst`, `calc_weight`), which is used only as a 2D differential-test oracle.

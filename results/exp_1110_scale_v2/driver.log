@@ -1,0 +1,6 @@
+[plan] 36 cells, JOBS=2, CPUS=16-23
+[done] scale__n1000000__osm_3d__s0 622s
+[done] scale__n1000000__osm_2d__s0 959s
+[done] scale__n1000000__gmm_4d__s0 773s
+[done] scale__n5000000__osm_3d__s0 2094s
+[done] scale__n5000000__osm_2d__s0 2827s

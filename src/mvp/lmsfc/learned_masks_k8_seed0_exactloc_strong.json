@@ -1,0 +1,40 @@
+{
+  "cost": 61.27654575875897,
+  "curve": "LMSFC-SA",
+  "d": 2,
+  "k": 8,
+  "masks": [
+    7548981234484215456,
+    10897762839225336159
+  ],
+  "objective": "exact_locality",
+  "schema_version": 1,
+  "seed": 0,
+  "threshold": 4,
+  "train_config": {
+    "area_max": 0.2,
+    "area_min": 0.0001,
+    "b": 1024,
+    "iters": 500,
+    "k": 8,
+    "locality_max_cells": 20000,
+    "locality_qn": 200,
+    "n": 100000,
+    "objective": "exact_locality",
+    "per": 10,
+    "points": "uniform",
+    "points_file": "",
+    "qn_test": 200,
+    "qn_total": 200,
+    "qn_train": 200,
+    "restarts": 10,
+    "semantic": "cell",
+    "threshold": 4,
+    "timing_repeats": 3,
+    "timing_warmup": true,
+    "w_page_accesses": 1.0,
+    "w_segments": 1.0,
+    "w_span_per_cell": 1.0
+  },
+  "trainer": "sa"
+}

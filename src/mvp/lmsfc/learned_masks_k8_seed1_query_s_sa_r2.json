@@ -1,0 +1,40 @@
+{
+  "cost": 0.8733422278892249,
+  "curve": "LMSFC-SA",
+  "d": 2,
+  "k": 8,
+  "masks": [
+    10052446742491480693,
+    8394297331218070922
+  ],
+  "objective": "query_s",
+  "schema_version": 1,
+  "seed": 1,
+  "threshold": 4,
+  "train_config": {
+    "area_max": 0.2,
+    "area_min": 0.0001,
+    "b": 1024,
+    "iters": 300,
+    "k": 8,
+    "locality_max_cells": 20000,
+    "locality_qn": 0,
+    "n": 100000,
+    "objective": "query_s",
+    "per": 10,
+    "points": "uniform",
+    "points_file": "",
+    "qn_test": 500,
+    "qn_total": 1000,
+    "qn_train": 500,
+    "restarts": 10,
+    "semantic": "cell",
+    "threshold": 4,
+    "timing_repeats": 3,
+    "timing_warmup": true,
+    "w_page_accesses": 1.0,
+    "w_segments": 1.0,
+    "w_span_per_cell": 1.0
+  },
+  "trainer": "sa"
+}

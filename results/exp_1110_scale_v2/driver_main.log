@@ -1,0 +1,10 @@
+[queue] orphan 5M cells finished 08:37:04
+[plan] 24 cells, JOBS=2, CPUS=16-23
+[skip] scale__n1000000__osm_2d__s0
+[skip] scale__n1000000__osm_3d__s0
+[skip] scale__n1000000__gmm_4d__s0
+[skip] scale__n5000000__osm_2d__s0
+[skip] scale__n5000000__osm_3d__s0
+[done] scale__n5000000__gmm_4d__s0 2491s
+[done] scale__n10000000__osm_2d__s0 4151s
+[done] scale__n10000000__osm_3d__s0 2826s

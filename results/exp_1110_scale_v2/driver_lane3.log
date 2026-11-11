@@ -1,0 +1,9 @@
+[queue] lane1 chain finished 13:35:41: scale_v2 2M/15M seed0
+[plan] 6 cells, JOBS=2, CPUS=16-23
+[done] scale__n2000000__osm_3d__s0 1022s
+[done] scale__n2000000__osm_2d__s0 1494s
+[done] scale__n2000000__gmm_4d__s0 1183s
+[done] scale__n15000000__osm_3d__s0 3821s
+[done] scale__n15000000__osm_2d__s0 5881s
+[done] scale__n15000000__gmm_4d__s0 5341s
+[all done] results/exp_1110_scale_v2

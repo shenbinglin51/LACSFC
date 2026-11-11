@@ -1,0 +1,6 @@
+[queue] 10M orphans done 10:06:26, lane2 20M start
+[plan] 3 cells, JOBS=1, CPUS=16-23
+[done] scale__n20000000__osm_2d__s0 7882s
+[done] scale__n20000000__osm_3d__s0 5073s
+[done] scale__n20000000__gmm_4d__s0 6753s
+[all done] results/exp_1110_scale_v2

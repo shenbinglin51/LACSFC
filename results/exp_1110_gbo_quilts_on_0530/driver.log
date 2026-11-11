@@ -1,0 +1,82 @@
+[skip] exp_1110_on_0530:B:uniform_3d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:B:gmm_3d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:B:uniform_4d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:B:gmm_4d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:B:uniform_5d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:B:gmm_5d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:A:uniform_4d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:A:gmm_4d:n50000:mixed:hilbert:s0
+[skip] exp_1110_on_0530:A:osm_3d:n50000:mixed:hilbert:s0
+B uniform_3d gbo s0 exit=0 1s
+B gmm_3d gbo s0 exit=0 2s
+B uniform_4d gbo s0 exit=0 2s
+B gmm_4d gbo s0 exit=0 2s
+B uniform_5d gbo s0 exit=0 26s
+B gmm_5d gbo s0 exit=0 24s
+A uniform_4d gbo s0 exit=0 2s
+A gmm_4d gbo s0 exit=0 2s
+A osm_3d gbo s0 exit=0 2s
+B uniform_3d quilts s0 exit=0 1s
+B gmm_3d quilts s0 exit=0 1s
+B uniform_4d quilts s0 exit=0 1s
+B gmm_4d quilts s0 exit=0 2s
+B uniform_5d quilts s0 exit=0 1s
+B gmm_5d quilts s0 exit=0 2s
+A uniform_4d quilts s0 exit=0 1s
+A gmm_4d quilts s0 exit=0 2s
+A osm_3d quilts s0 exit=0 1s
+B uniform_3d hilbert s1 exit=0 1s
+B gmm_3d hilbert s1 exit=0 1s
+B uniform_4d hilbert s1 exit=0 2s
+B gmm_4d hilbert s1 exit=0 1s
+B uniform_5d hilbert s1 exit=0 2s
+B gmm_5d hilbert s1 exit=0 1s
+A uniform_4d hilbert s1 exit=0 2s
+A gmm_4d hilbert s1 exit=0 1s
+A osm_3d hilbert s1 exit=0 1s
+B uniform_3d gbo s1 exit=0 2s
+B gmm_3d gbo s1 exit=0 1s
+B uniform_4d gbo s1 exit=0 2s
+B gmm_4d gbo s1 exit=0 2s
+B uniform_5d gbo s1 exit=0 25s
+B gmm_5d gbo s1 exit=0 24s
+A uniform_4d gbo s1 exit=0 3s
+A gmm_4d gbo s1 exit=0 1s
+A osm_3d gbo s1 exit=0 2s
+B uniform_3d quilts s1 exit=0 1s
+B gmm_3d quilts s1 exit=0 1s
+B uniform_4d quilts s1 exit=0 1s
+B gmm_4d quilts s1 exit=0 2s
+B uniform_5d quilts s1 exit=0 1s
+B gmm_5d quilts s1 exit=0 2s
+A uniform_4d quilts s1 exit=0 1s
+A gmm_4d quilts s1 exit=0 2s
+A osm_3d quilts s1 exit=0 1s
+B uniform_3d hilbert s2 exit=0 1s
+B gmm_3d hilbert s2 exit=0 2s
+B uniform_4d hilbert s2 exit=0 1s
+B gmm_4d hilbert s2 exit=0 1s
+B uniform_5d hilbert s2 exit=0 2s
+B gmm_5d hilbert s2 exit=0 2s
+A uniform_4d hilbert s2 exit=0 1s
+A gmm_4d hilbert s2 exit=0 1s
+A osm_3d hilbert s2 exit=0 2s
+B uniform_3d gbo s2 exit=0 1s
+B gmm_3d gbo s2 exit=0 1s
+B uniform_4d gbo s2 exit=0 2s
+B gmm_4d gbo s2 exit=0 2s
+B uniform_5d gbo s2 exit=0 24s
+B gmm_5d gbo s2 exit=0 23s
+A uniform_4d gbo s2 exit=0 2s
+A gmm_4d gbo s2 exit=0 2s
+A osm_3d gbo s2 exit=0 1s
+B uniform_3d quilts s2 exit=0 1s
+B gmm_3d quilts s2 exit=0 2s
+B uniform_4d quilts s2 exit=0 1s
+B gmm_4d quilts s2 exit=0 1s
+B uniform_5d quilts s2 exit=0 2s
+B gmm_5d quilts s2 exit=0 1s
+A uniform_4d quilts s2 exit=0 1s
+A gmm_4d quilts s2 exit=0 2s
+A osm_3d quilts s2 exit=0 1s
+[done] results/exp_1110_gbo_quilts_on_0530

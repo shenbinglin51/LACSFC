@@ -1,0 +1,3 @@
+scale|n10000000|osm_2d|0|8|256||||hotspot_mixture|hotspot_mixture|--n 10000000 --require-n --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves row,column,z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n10000000|osm_3d|0|5|128||||hotspot_mixture|hotspot_mixture|--n 10000000 --require-n --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n10000000|gmm_4d|0|4|128||||hotspot_mixture|hotspot_mixture|--n 10000000 --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt

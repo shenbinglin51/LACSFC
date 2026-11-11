@@ -1,0 +1,20 @@
+[plan] 12 cells, JOBS=2, CPUS=16-23
+[done] scale__n1000000__osm_3d__s1 698s
+[done] scale__n1000000__osm_2d__s1 992s
+[done] scale__n1000000__gmm_4d__s1 835s
+[done] scale__n5000000__osm_3d__s1 2046s
+[done] scale__n5000000__osm_2d__s1 2721s
+[done] scale__n1000000__osm_2d__s2 941s
+[done] scale__n1000000__osm_3d__s2 722s
+[done] scale__n5000000__gmm_4d__s1 2497s
+[done] scale__n1000000__gmm_4d__s2 829s
+[done] scale__n5000000__osm_3d__s2 2230s
+[done] scale__n5000000__osm_2d__s2 2829s
+[done] scale__n5000000__gmm_4d__s2 2433s
+[all done] results/exp_1110_scale_v2
+[queue] lane1b start 12:36:33
+[plan] 3 cells, JOBS=1, CPUS=16-23
+[skip] scale__n10000000__osm_2d__s0
+[skip] scale__n10000000__osm_3d__s0
+[done] scale__n10000000__gmm_4d__s0 3540s
+[all done] results/exp_1110_scale_v2

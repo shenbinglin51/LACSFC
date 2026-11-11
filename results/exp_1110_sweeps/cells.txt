@@ -1,0 +1,110 @@
+grid|k6|osm_2d|3|6|||||hotspot_mixture|hotspot_mixture|
+grid|k6|gmm_2d|3|6|||||hotspot_mixture|hotspot_mixture|
+grid|k8|osm_2d|3|8|||||hotspot_mixture|hotspot_mixture|
+grid|k8|gmm_2d|3|8|||||hotspot_mixture|hotspot_mixture|
+grid|k10|osm_2d|3|10|||||hotspot_mixture|hotspot_mixture|
+grid|k10|gmm_2d|3|10|||||hotspot_mixture|hotspot_mixture|
+grid|k3|gmm_3d|3|3|||||hotspot_mixture|hotspot_mixture|
+grid|k4|gmm_3d|3|4|||||hotspot_mixture|hotspot_mixture|
+grid|k5|gmm_3d|3|5|||||hotspot_mixture|hotspot_mixture|
+grid|k6|gmm_3d|3|6|||||hotspot_mixture|hotspot_mixture|
+grid|k3|gmm_4d|3|3|||||hotspot_mixture|hotspot_mixture|
+grid|k4|gmm_4d|3|4|||||hotspot_mixture|hotspot_mixture|
+grid|k5|gmm_4d|3|5|||||hotspot_mixture|hotspot_mixture|
+grid|k3|gmm_5d|3|3|||||hotspot_mixture|hotspot_mixture|
+grid|k4|gmm_5d|3|4|||||hotspot_mixture|hotspot_mixture|
+sel|a1e-5|osm_2d|3||||1e-5|1e-5|hotspot_mixture|hotspot_mixture| 
+sel|a1e-5|gmm_4d|3||||1e-5|1e-5|hotspot_mixture|hotspot_mixture| 
+sel|a1e-4|osm_2d|3||||1e-4|1e-4|hotspot_mixture|hotspot_mixture| 
+sel|a1e-4|gmm_4d|3||||1e-4|1e-4|hotspot_mixture|hotspot_mixture| 
+sel|a1e-3|osm_2d|3||||1e-3|1e-3|hotspot_mixture|hotspot_mixture| 
+sel|a1e-3|gmm_4d|3||||1e-3|1e-3|hotspot_mixture|hotspot_mixture| 
+sel|a1e-2|osm_2d|3||||1e-2|1e-2|hotspot_mixture|hotspot_mixture| 
+sel|a1e-2|gmm_4d|3||||1e-2|1e-2|hotspot_mixture|hotspot_mixture| 
+shift|hotspot_mixture-hotspot_mixture|osm_2d|3||||||hotspot_mixture|hotspot_mixture|
+shift|hotspot_mixture-hotspot_mixture|gmm_4d|3||||||hotspot_mixture|hotspot_mixture|
+shift|hotspot_mixture-uniform|osm_2d|3||||||uniform|hotspot_mixture|
+shift|hotspot_mixture-uniform|gmm_4d|3||||||uniform|hotspot_mixture|
+shift|uniform-hotspot_mixture|osm_2d|3||||||hotspot_mixture|uniform|
+shift|uniform-hotspot_mixture|gmm_4d|3||||||hotspot_mixture|uniform|
+shift|uniform-uniform|osm_2d|3||||||uniform|uniform|
+shift|uniform-uniform|gmm_4d|3||||||uniform|uniform|
+aspect|r0.125|osm_2d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.125
+aspect|r0.125|gmm_4d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.125
+aspect|r0.25|osm_2d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.25
+aspect|r0.25|gmm_4d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.25
+aspect|r1|osm_2d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 1
+aspect|r1|gmm_4d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 1
+aspect|r4|osm_2d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 4
+aspect|r4|gmm_4d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 4
+aspect|r8|osm_2d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 8
+aspect|r8|gmm_4d|3||||||aspect_ratio|aspect_ratio|--aspect-ratio 8
+page|b64|osm_2d|3||64||||hotspot_mixture|hotspot_mixture|
+page|b64|gmm_4d|3||64||||hotspot_mixture|hotspot_mixture|
+page|b128|osm_2d|3||128||||hotspot_mixture|hotspot_mixture|
+page|b128|gmm_4d|3||128||||hotspot_mixture|hotspot_mixture|
+page|b256|osm_2d|3||256||||hotspot_mixture|hotspot_mixture|
+page|b256|gmm_4d|3||256||||hotspot_mixture|hotspot_mixture|
+page|b512|osm_2d|3||512||||hotspot_mixture|hotspot_mixture|
+page|b512|gmm_4d|3||512||||hotspot_mixture|hotspot_mixture|
+page|b1024|osm_2d|3||1024||||hotspot_mixture|hotspot_mixture|
+page|b1024|gmm_4d|3||1024||||hotspot_mixture|hotspot_mixture|
+train|t20|osm_2d|3|||20|||hotspot_mixture|hotspot_mixture|
+train|t60|osm_2d|3|||60|||hotspot_mixture|hotspot_mixture|
+train|t120|osm_2d|3|||120|||hotspot_mixture|hotspot_mixture|
+train|t240|osm_2d|3|||240|||hotspot_mixture|hotspot_mixture|
+grid|k6|osm_2d|4|6|||||hotspot_mixture|hotspot_mixture|
+grid|k6|gmm_2d|4|6|||||hotspot_mixture|hotspot_mixture|
+grid|k8|osm_2d|4|8|||||hotspot_mixture|hotspot_mixture|
+grid|k8|gmm_2d|4|8|||||hotspot_mixture|hotspot_mixture|
+grid|k10|osm_2d|4|10|||||hotspot_mixture|hotspot_mixture|
+grid|k10|gmm_2d|4|10|||||hotspot_mixture|hotspot_mixture|
+grid|k3|gmm_3d|4|3|||||hotspot_mixture|hotspot_mixture|
+grid|k4|gmm_3d|4|4|||||hotspot_mixture|hotspot_mixture|
+grid|k5|gmm_3d|4|5|||||hotspot_mixture|hotspot_mixture|
+grid|k6|gmm_3d|4|6|||||hotspot_mixture|hotspot_mixture|
+grid|k3|gmm_4d|4|3|||||hotspot_mixture|hotspot_mixture|
+grid|k4|gmm_4d|4|4|||||hotspot_mixture|hotspot_mixture|
+grid|k5|gmm_4d|4|5|||||hotspot_mixture|hotspot_mixture|
+grid|k3|gmm_5d|4|3|||||hotspot_mixture|hotspot_mixture|
+grid|k4|gmm_5d|4|4|||||hotspot_mixture|hotspot_mixture|
+sel|a1e-5|osm_2d|4||||1e-5|1e-5|hotspot_mixture|hotspot_mixture| 
+sel|a1e-5|gmm_4d|4||||1e-5|1e-5|hotspot_mixture|hotspot_mixture| 
+sel|a1e-4|osm_2d|4||||1e-4|1e-4|hotspot_mixture|hotspot_mixture| 
+sel|a1e-4|gmm_4d|4||||1e-4|1e-4|hotspot_mixture|hotspot_mixture| 
+sel|a1e-3|osm_2d|4||||1e-3|1e-3|hotspot_mixture|hotspot_mixture| 
+sel|a1e-3|gmm_4d|4||||1e-3|1e-3|hotspot_mixture|hotspot_mixture| 
+sel|a1e-2|osm_2d|4||||1e-2|1e-2|hotspot_mixture|hotspot_mixture| 
+sel|a1e-2|gmm_4d|4||||1e-2|1e-2|hotspot_mixture|hotspot_mixture| 
+shift|hotspot_mixture-hotspot_mixture|osm_2d|4||||||hotspot_mixture|hotspot_mixture|
+shift|hotspot_mixture-hotspot_mixture|gmm_4d|4||||||hotspot_mixture|hotspot_mixture|
+shift|hotspot_mixture-uniform|osm_2d|4||||||uniform|hotspot_mixture|
+shift|hotspot_mixture-uniform|gmm_4d|4||||||uniform|hotspot_mixture|
+shift|uniform-hotspot_mixture|osm_2d|4||||||hotspot_mixture|uniform|
+shift|uniform-hotspot_mixture|gmm_4d|4||||||hotspot_mixture|uniform|
+shift|uniform-uniform|osm_2d|4||||||uniform|uniform|
+shift|uniform-uniform|gmm_4d|4||||||uniform|uniform|
+aspect|r0.125|osm_2d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.125
+aspect|r0.125|gmm_4d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.125
+aspect|r0.25|osm_2d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.25
+aspect|r0.25|gmm_4d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 0.25
+aspect|r1|osm_2d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 1
+aspect|r1|gmm_4d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 1
+aspect|r4|osm_2d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 4
+aspect|r4|gmm_4d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 4
+aspect|r8|osm_2d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 8
+aspect|r8|gmm_4d|4||||||aspect_ratio|aspect_ratio|--aspect-ratio 8
+page|b64|osm_2d|4||64||||hotspot_mixture|hotspot_mixture|
+page|b64|gmm_4d|4||64||||hotspot_mixture|hotspot_mixture|
+page|b128|osm_2d|4||128||||hotspot_mixture|hotspot_mixture|
+page|b128|gmm_4d|4||128||||hotspot_mixture|hotspot_mixture|
+page|b256|osm_2d|4||256||||hotspot_mixture|hotspot_mixture|
+page|b256|gmm_4d|4||256||||hotspot_mixture|hotspot_mixture|
+page|b512|osm_2d|4||512||||hotspot_mixture|hotspot_mixture|
+page|b512|gmm_4d|4||512||||hotspot_mixture|hotspot_mixture|
+page|b1024|osm_2d|4||1024||||hotspot_mixture|hotspot_mixture|
+page|b1024|gmm_4d|4||1024||||hotspot_mixture|hotspot_mixture|
+train|t20|osm_2d|4|||20|||hotspot_mixture|hotspot_mixture|
+train|t60|osm_2d|4|||60|||hotspot_mixture|hotspot_mixture|
+train|t120|osm_2d|4|||120|||hotspot_mixture|hotspot_mixture|
+train|t240|osm_2d|4|||240|||hotspot_mixture|hotspot_mixture|

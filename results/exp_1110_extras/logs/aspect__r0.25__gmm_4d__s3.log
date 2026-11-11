@@ -1,0 +1,12 @@
+Optimising LACSFC-Opt (CMA-ES: sigma0=0.25, max_evals=1, popsize=20, n_queries=120, real_pts=yes)...
+[CMA-ES] mode=block_space, n_edges=14336, b=128, n_queries=120, init_objective=155.5637, sigma0=0.25, max_evals=1
+[CMA-ES] block_space n_blocks=4096, block_init_objective=141.0132
+  evals=  22  best_objective=44.4411  sigma=0.2490
+[CMA-ES] done: evals=22, final_objective=44.4411, improvement=+68.5%
+CMA-ES optimisation completed in 6.8s
+Optimised weights: min=0.0000, max=1.0000, mean=0.0038, std=0.0369
+Initializing query processor: brq (AC-BRQ v2)...
+n=50000 qn_total=240 qn_train=120 qn_test=120 k=4 b=128 seed=3 repeat=1
+curve              cfg        build_s            query_s            avg_pages          avg_seg            avg_page_amp         t_int              t_lookup           t_filter           t_total            scan               pass_code          pass_cell          hit_seg            page_cnt           pg_intv            slice_cnt          slice_len          empty_slice
+-----              ---        -------            -------            ---------          -------            ------------         -----              --------           --------           -------            ----               ---------          ---------          -------            --------           -------            ---------          ---------          -----------
+LACSFC-Meta        -          0.0719±0.0000      0.0567±0.0000      6.5167±0.0000      43.4083±0.0000     2.308617±0.000000    0.0109±0.0000      0.0091±0.0000      0.0348±0.0000      0.0547±0.0000      198.57±0.00        198.57±0.00        51.17±0.00         2.74±0.00          6.52±0.00          43.33±0.00         43.33±0.00         2.47±0.00          38.33±0.00

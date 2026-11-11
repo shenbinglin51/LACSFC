@@ -1,0 +1,138 @@
+% Notes for all EXP-1110 tables (MVP Python engine; descriptive, not the Chapter 7 formal pipeline):
+% $\dagger$ AdaCurve degenerates in this harness (avg_amp 10-300x Hilbert); excluded from best-value marking.
+% $\ddagger$ GBO (Yang, He, Chen, TKDE 2016) is not an AC order: empty cells are appended at the end.
+% $\S$ OSM points and queries do not depend on the seed; s.d. reflects only learned-method randomness.
+% LMSFC-Std/BO and PiecewiseSFC are MVP re-implementations (bit-mask BO; Learned-BMTree re-implementation).
+% LACSFC row = per-seed best of the LACSFC variants (lacsfc_h / lacsfc_opt / lacsfc_meta
+%   and their *_mid/*_refine_tiny aliases); per-variant values are in exp_1110_sweeps.csv.
+% LACSFC-Opt in the 2D table is token lacsfc_neural (same code path and lacsfc_config as EXP-0512 LACSFC-Opt).
+% LACSFC-Opt/Meta are not run-to-run deterministic (Layer A vs Layer B differ at identical seed/args).
+% 3 seeds only: a one-sided paired Wilcoxon test cannot reach p<0.05 (minimum p = 0.125).
+
+\begin{table*}[t]
+\centering\small
+\caption{Page amplification \texttt{avg\_amp} (mean $\pm$ s.d. over seeds 0--2; lower is better). 2D (EXP-1110 rerun of EXP-0512, 120 train / 120 test queries, $n=50$k, $k=8$, $B=256$).}
+\label{tab:exp1110_2d_avg_amp}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Uniform & GMM-hot & GMM-asp8 & OSM-25M$^\S$ & OSM-250M$^\S$ \\
+\midrule
+Hilbert & 2.288\,$\pm$\,0.116 & \textbf{2.163\,$\pm$\,0.059} & \textbf{2.907\,$\pm$\,0.164} & \textbf{2.705\,$\pm$\,0.000} & \textbf{2.557\,$\pm$\,0.000} \\
+Z-curve & 2.530\,$\pm$\,0.163 & 2.409\,$\pm$\,0.057 & 3.170\,$\pm$\,0.279 & 2.900\,$\pm$\,0.000 & 2.737\,$\pm$\,0.000 \\
+LMSFC-Std & 2.579\,$\pm$\,0.189 & 2.432\,$\pm$\,0.065 & 3.218\,$\pm$\,0.294 & 2.938\,$\pm$\,0.000 & 2.767\,$\pm$\,0.000 \\
+LMSFC-BO & \textbf{2.102\,$\pm$\,0.104} & 2.223\,$\pm$\,0.034 & 3.289\,$\pm$\,0.379 & 2.760\,$\pm$\,0.136 & 2.656\,$\pm$\,0.186 \\
+BitAllocZ-BO & 2.528\,$\pm$\,0.124 & 2.424\,$\pm$\,0.046 & 3.290\,$\pm$\,0.245 & 2.942\,$\pm$\,0.000 & 2.720\,$\pm$\,0.000 \\
+PiecewiseSFC & 2.886\,$\pm$\,0.188 & 4.332\,$\pm$\,0.265 & 3.940\,$\pm$\,0.292 & 5.421\,$\pm$\,0.000 & 5.022\,$\pm$\,0.000 \\
+AdaCurve$^\dagger$ & 43.055\,$\pm$\,1.239 & 25.573\,$\pm$\,10.240 & 27.185\,$\pm$\,14.445 & 48.208\,$\pm$\,1.949 & 48.735\,$\pm$\,4.162 \\
+GBO$^\ddagger$ & 3.573\,$\pm$\,0.020 & 2.759\,$\pm$\,0.127 & 3.574\,$\pm$\,0.265 & 3.420\,$\pm$\,0.030 & 3.289\,$\pm$\,0.045 \\
+QUILTS & 2.439\,$\pm$\,0.160 & 2.387\,$\pm$\,0.077 & 12.832\,$\pm$\,1.791 & 2.988\,$\pm$\,0.000 & 3.015\,$\pm$\,0.000 \\
+LACSFC & 2.589\,$\pm$\,0.036 & 2.398\,$\pm$\,0.115 & 3.640\,$\pm$\,0.184 & 2.941\,$\pm$\,0.072 & 2.886\,$\pm$\,0.019 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Contiguous segments per query \texttt{avg\_seg} (mean $\pm$ s.d. over seeds 0--2; lower is better). 2D (EXP-1110 rerun of EXP-0512, 120 train / 120 test queries, $n=50$k, $k=8$, $B=256$).}
+\label{tab:exp1110_2d_avg_seg}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Uniform & GMM-hot & GMM-asp8 & OSM-25M$^\S$ & OSM-250M$^\S$ \\
+\midrule
+Hilbert & 16.694\,$\pm$\,0.838 & 16.092\,$\pm$\,3.369 & 55.958\,$\pm$\,5.231 & 7.475\,$\pm$\,0.000 & 7.433\,$\pm$\,0.000 \\
+Z-curve & 31.653\,$\pm$\,1.727 & 30.489\,$\pm$\,6.745 & 97.350\,$\pm$\,11.317 & 12.700\,$\pm$\,0.000 & 12.708\,$\pm$\,0.000 \\
+LMSFC-Std & 2.456\,$\pm$\,0.089 & 4.811\,$\pm$\,0.326 & \textbf{3.594\,$\pm$\,0.425} & 2.567\,$\pm$\,0.000 & 2.417\,$\pm$\,0.000 \\
+LMSFC-BO & \textbf{2.044\,$\pm$\,0.005} & 4.536\,$\pm$\,0.135 & 3.783\,$\pm$\,0.581 & 2.453\,$\pm$\,0.038 & 2.422\,$\pm$\,0.104 \\
+BitAllocZ-BO & 31.489\,$\pm$\,1.220 & 30.422\,$\pm$\,6.605 & 98.042\,$\pm$\,9.425 & 12.825\,$\pm$\,0.000 & 12.750\,$\pm$\,0.000 \\
+PiecewiseSFC & 3.006\,$\pm$\,0.104 & \textbf{3.200\,$\pm$\,0.497} & 7.953\,$\pm$\,0.807 & \textbf{1.792\,$\pm$\,0.000} & \textbf{1.633\,$\pm$\,0.000} \\
+AdaCurve$^\dagger$ & 1.908\,$\pm$\,0.116 & 2.936\,$\pm$\,0.739 & 3.672\,$\pm$\,1.893 & 4.567\,$\pm$\,0.110 & 4.169\,$\pm$\,0.497 \\
+GBO$^\ddagger$ & 30.131\,$\pm$\,0.824 & 26.389\,$\pm$\,6.168 & 66.625\,$\pm$\,7.970 & 9.803\,$\pm$\,0.132 & 9.608\,$\pm$\,0.014 \\
+QUILTS & 32.219\,$\pm$\,2.578 & 31.119\,$\pm$\,7.282 & 60.450\,$\pm$\,8.366 & 10.450\,$\pm$\,0.000 & 10.183\,$\pm$\,0.000 \\
+LACSFC & 16.881\,$\pm$\,0.405 & 16.825\,$\pm$\,2.839 & 54.969\,$\pm$\,2.539 & 7.544\,$\pm$\,0.061 & 7.458\,$\pm$\,0.022 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Page amplification \texttt{avg\_amp} (mean $\pm$ s.d. over seeds 0--2; lower is better). 3D--5D (EXP-0530 Layer B + Layer A osm\_3d, 40 train / 40 test queries, $n=50$k, $k=4$, $B=128$).}
+\label{tab:exp1110_0530_avg_amp}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & Uni-3D & GMM-3D & Uni-4D & GMM-4D & Uni-5D & GMM-5D & OSM-3D \\
+\midrule
+Hilbert & \textbf{3.833\,$\pm$\,0.189} & 5.825\,$\pm$\,0.842 & \textbf{5.596\,$\pm$\,0.744} & \textbf{5.093\,$\pm$\,0.566} & \textbf{7.600\,$\pm$\,0.568} & \textbf{4.518\,$\pm$\,0.761} & 5.074\,$\pm$\,0.381 \\
+Z-curve & 4.371\,$\pm$\,0.269 & 6.007\,$\pm$\,0.778 & 6.033\,$\pm$\,1.225 & 5.236\,$\pm$\,0.641 & 8.325\,$\pm$\,0.959 & 4.722\,$\pm$\,0.795 & 5.519\,$\pm$\,0.350 \\
+LMSFC-BO & 4.221\,$\pm$\,0.494 & 5.964\,$\pm$\,0.704 & 6.296\,$\pm$\,1.328 & 5.497\,$\pm$\,0.481 & 8.342\,$\pm$\,0.975 & 4.901\,$\pm$\,0.442 & 5.285\,$\pm$\,0.403 \\
+BitAllocZ-BO & 4.321\,$\pm$\,0.108 & 6.017\,$\pm$\,0.766 & 6.100\,$\pm$\,1.380 & 5.569\,$\pm$\,0.721 & 8.592\,$\pm$\,1.482 & 5.030\,$\pm$\,0.379 & 5.140\,$\pm$\,0.323 \\
+PiecewiseSFC & 5.075\,$\pm$\,0.610 & 15.780\,$\pm$\,3.691 & 7.692\,$\pm$\,1.732 & 14.405\,$\pm$\,2.042 & 10.096\,$\pm$\,1.481 & 9.601\,$\pm$\,1.164 & 11.093\,$\pm$\,0.846 \\
+AdaCurve$^\dagger$ & 197.950\,$\pm$\,44.071 & 88.356\,$\pm$\,23.605 & 262.558\,$\pm$\,49.088 & 62.349\,$\pm$\,27.665 & 302.217\,$\pm$\,39.199 & 23.909\,$\pm$\,5.346 & 185.153\,$\pm$\,14.463 \\
+GBO$^\ddagger$ & 5.033\,$\pm$\,0.347 & 5.887\,$\pm$\,0.909 & 11.217\,$\pm$\,1.810 & 5.424\,$\pm$\,0.510 & 13.667\,$\pm$\,1.310 & 5.020\,$\pm$\,0.790 & 5.303\,$\pm$\,0.555 \\
+QUILTS & 4.296\,$\pm$\,0.289 & 6.028\,$\pm$\,0.785 & 6.079\,$\pm$\,1.068 & 5.311\,$\pm$\,0.500 & 8.304\,$\pm$\,1.047 & 4.915\,$\pm$\,0.311 & 5.217\,$\pm$\,0.387 \\
+LACSFC & 4.275\,$\pm$\,0.218 & \textbf{5.799\,$\pm$\,0.813} & 6.679\,$\pm$\,1.426 & 5.128\,$\pm$\,0.552 & 11.250\,$\pm$\,1.470 & 4.734\,$\pm$\,0.577 & \textbf{5.043\,$\pm$\,0.384} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Contiguous segments per query \texttt{avg\_seg} (mean $\pm$ s.d. over seeds 0--2; lower is better). 3D--5D (EXP-0530 Layer B + Layer A osm\_3d, 40 train / 40 test queries, $n=50$k, $k=4$, $B=128$).}
+\label{tab:exp1110_0530_avg_seg}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & Uni-3D & GMM-3D & Uni-4D & GMM-4D & Uni-5D & GMM-5D & OSM-3D \\
+\midrule
+Hilbert & 4.450\,$\pm$\,0.164 & 4.083\,$\pm$\,0.472 & 28.383\,$\pm$\,2.556 & 31.092\,$\pm$\,8.954 & 253.725\,$\pm$\,56.287 & 295.292\,$\pm$\,58.905 & 2.733\,$\pm$\,0.250 \\
+Z-curve & 6.233\,$\pm$\,0.366 & 5.825\,$\pm$\,0.626 & 44.000\,$\pm$\,4.621 & 46.483\,$\pm$\,14.921 & 433.133\,$\pm$\,96.312 & 471.692\,$\pm$\,109.242 & 3.833\,$\pm$\,0.613 \\
+LMSFC-BO & 2.708\,$\pm$\,0.315 & 4.108\,$\pm$\,0.525 & 3.575\,$\pm$\,0.541 & 13.700\,$\pm$\,3.953 & \textbf{4.300\,$\pm$\,0.312} & 25.517\,$\pm$\,2.113 & 2.533\,$\pm$\,0.153 \\
+BitAllocZ-BO & 6.650\,$\pm$\,0.629 & 5.983\,$\pm$\,0.296 & 45.175\,$\pm$\,5.771 & 51.483\,$\pm$\,16.070 & 406.367\,$\pm$\,120.563 & 510.267\,$\pm$\,67.181 & 3.217\,$\pm$\,0.338 \\
+PiecewiseSFC & \textbf{2.683\,$\pm$\,0.300} & \textbf{2.975\,$\pm$\,0.288} & \textbf{3.517\,$\pm$\,0.617} & \textbf{5.092\,$\pm$\,0.663} & 4.700\,$\pm$\,0.614 & \textbf{7.717\,$\pm$\,2.086} & \textbf{2.175\,$\pm$\,0.189} \\
+AdaCurve$^\dagger$ & 1.417\,$\pm$\,0.118 & 3.317\,$\pm$\,0.427 & 2.275\,$\pm$\,0.950 & 3.825\,$\pm$\,1.535 & 2.058\,$\pm$\,0.571 & 3.233\,$\pm$\,1.447 & 5.067\,$\pm$\,1.642 \\
+GBO$^\ddagger$ & 5.100\,$\pm$\,0.295 & 4.433\,$\pm$\,0.257 & 45.675\,$\pm$\,5.603 & 30.108\,$\pm$\,10.001 & 318.717\,$\pm$\,49.660 & 311.358\,$\pm$\,80.985 & 2.692\,$\pm$\,0.375 \\
+QUILTS & 6.667\,$\pm$\,0.642 & 6.183\,$\pm$\,0.313 & 43.842\,$\pm$\,5.235 & 44.642\,$\pm$\,16.602 & 425.558\,$\pm$\,87.988 & 466.992\,$\pm$\,131.065 & 3.058\,$\pm$\,0.224 \\
+LACSFC & 4.658\,$\pm$\,0.396 & 4.317\,$\pm$\,0.216 & 28.150\,$\pm$\,3.704 & 31.092\,$\pm$\,8.677 & 244.133\,$\pm$\,70.928 & 305.008\,$\pm$\,40.573 & 2.617\,$\pm$\,0.166 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Page amplification \texttt{avg\_amp} (mean $\pm$ s.d. over seeds 0--2; lower is better). Realistic 4D (EXP-0522, 16 train / 64 test queries, $n=5$k, $k=4$, $B=128$).}
+\label{tab:exp1110_0522_avg_amp}
+\begin{tabular}{lrrr}
+\toprule
+Method & OSM-4D & GeoNames-4D & TIGER-4D \\
+\midrule
+Hilbert & \textbf{2.271\,$\pm$\,0.259} & \textbf{2.281\,$\pm$\,0.308} & 2.120\,$\pm$\,0.117 \\
+Z-curve & 2.490\,$\pm$\,0.260 & 2.338\,$\pm$\,0.222 & 2.094\,$\pm$\,0.176 \\
+LMSFC-BO & 2.359\,$\pm$\,0.180 & 2.405\,$\pm$\,0.243 & \textbf{1.990\,$\pm$\,0.033} \\
+BitAllocZ-BO & 2.276\,$\pm$\,0.247 & 2.305\,$\pm$\,0.280 & 2.115\,$\pm$\,0.033 \\
+PiecewiseSFC & 4.839\,$\pm$\,0.472 & 3.571\,$\pm$\,0.373 & 3.161\,$\pm$\,0.172 \\
+AdaCurve$^\dagger$ & 23.135\,$\pm$\,2.360 & 13.747\,$\pm$\,2.436 & 17.516\,$\pm$\,0.491 \\
+GBO$^\ddagger$ & 3.521\,$\pm$\,0.529 & 2.989\,$\pm$\,0.186 & 2.484\,$\pm$\,0.135 \\
+QUILTS & 2.375\,$\pm$\,0.413 & 2.503\,$\pm$\,0.356 & 2.193\,$\pm$\,0.186 \\
+LACSFC & 2.531\,$\pm$\,0.205 & 2.470\,$\pm$\,0.111 & 2.109\,$\pm$\,0.174 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering\small
+\caption{Contiguous segments per query \texttt{avg\_seg} (mean $\pm$ s.d. over seeds 0--2; lower is better). Realistic 4D (EXP-0522, 16 train / 64 test queries, $n=5$k, $k=4$, $B=128$).}
+\label{tab:exp1110_0522_avg_seg}
+\begin{tabular}{lrrr}
+\toprule
+Method & OSM-4D & GeoNames-4D & TIGER-4D \\
+\midrule
+Hilbert & 6.729\,$\pm$\,0.502 & 6.375\,$\pm$\,0.531 & 6.766\,$\pm$\,0.458 \\
+Z-curve & 10.740\,$\pm$\,0.210 & 9.901\,$\pm$\,0.809 & 10.281\,$\pm$\,0.407 \\
+LMSFC-BO & 1.537\,$\pm$\,0.160 & 1.531\,$\pm$\,0.180 & \textbf{1.266\,$\pm$\,0.056} \\
+BitAllocZ-BO & 7.245\,$\pm$\,1.134 & 7.135\,$\pm$\,0.363 & 6.932\,$\pm$\,0.737 \\
+PiecewiseSFC & \textbf{1.536\,$\pm$\,0.188} & \textbf{1.406\,$\pm$\,0.072} & 1.427\,$\pm$\,0.086 \\
+AdaCurve$^\dagger$ & 1.214\,$\pm$\,0.104 & 1.229\,$\pm$\,0.217 & 1.208\,$\pm$\,0.070 \\
+GBO$^\ddagger$ & 6.745\,$\pm$\,1.220 & 5.599\,$\pm$\,0.213 & 6.021\,$\pm$\,0.768 \\
+QUILTS & 7.109\,$\pm$\,1.192 & 7.026\,$\pm$\,0.852 & 6.630\,$\pm$\,0.323 \\
+LACSFC & 5.583\,$\pm$\,0.858 & 5.464\,$\pm$\,0.469 & 5.562\,$\pm$\,0.501 \\
+\bottomrule
+\end{tabular}
+\end{table*}

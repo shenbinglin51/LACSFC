@@ -1,0 +1,16 @@
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+networkx>=2.6.0
+hilbertcurve>=2.0.5
+cma>=3.0.0
+tqdm>=4.62.0
+pybind11>=2.10.0
+# Optional: only needed for the LACSFC-Neural/-Meta training paths
+# (plugin falls back to the heuristic/CMA-ES path without it)
+torch>=2.0.0
+# Not needed for EXP-1110 reproduction:
+# matplotlib>=3.4.0
+# jupyterlab>=3.0.0
+# pytest>=6.2.5

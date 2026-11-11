@@ -1,0 +1,33 @@
+{
+  "cost": 11.272,
+  "curve": "LMSFC-SA",
+  "d": 2,
+  "k": 8,
+  "masks": [
+    12347679135374189756,
+    6099064938335361859
+  ],
+  "objective": "page_accesses",
+  "schema_version": 1,
+  "seed": 0,
+  "train_config": {
+    "area_max": 0.2,
+    "area_min": 0.0001,
+    "b": 1024,
+    "iters": 200,
+    "k": 8,
+    "n": 100000,
+    "per": 10,
+    "points": "uniform",
+    "points_file": "",
+    "qn_test": 500,
+    "qn_total": 1000,
+    "qn_train": 500,
+    "restarts": 5,
+    "semantic": "cell",
+    "threshold": null,
+    "timing_repeats": 3,
+    "timing_warmup": true
+  },
+  "trainer": "sa"
+}

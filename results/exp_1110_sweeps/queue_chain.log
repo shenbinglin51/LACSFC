@@ -1,0 +1,272 @@
+[queue] sweeps s0-2 finished 12:37:41: extras (trainper + meta, N<=5M)
+[plan] 78 cells, JOBS=3, CPUS=4-11
+[done] trainper__p20__osm_2d__s0 209s
+[done] trainper__p100__osm_2d__s0 182s
+[done] trainper__p4__osm_2d__s0 439s
+[done] grid__k4__gmm_4d__s0 10s
+[done] sel__a1e-5__gmm_4d__s0 10s
+[done] sel__a1e-4__gmm_4d__s0 10s
+[done] sel__a1e-3__gmm_4d__s0 10s
+[done] sel__a1e-2__gmm_4d__s0 11s
+[done] aspect__r0.125__gmm_4d__s0 9s
+[done] trainper__p1000__osm_2d__s0 114s
+[done] aspect__r0.25__gmm_4d__s0 10s
+[done] aspect__r1__gmm_4d__s0 10s
+[done] aspect__r4__gmm_4d__s0 10s
+[done] aspect__r8__gmm_4d__s0 10s
+[done] page__b64__gmm_4d__s0 10s
+[done] page__b128__gmm_4d__s0 9s
+[done] page__b256__gmm_4d__s0 9s
+[done] page__b512__gmm_4d__s0 10s
+[done] page__b1024__gmm_4d__s0 10s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s0 9s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s0 9s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s0 10s
+[done] shift__uniform-uniform__gmm_4d__s0 10s
+[done] scale__n1000000__gmm_4d__s0 22s
+[done] scale__n5000000__gmm_4d__s0 71s
+[done] trainper__p4__osm_2d__s1 415s
+[done] trainper__p20__osm_2d__s1 193s
+[done] trainper__p1__osm_2d__s0 1324s
+[done] trainper__p100__osm_2d__s1 157s
+[done] grid__k4__gmm_4d__s1 9s
+[done] sel__a1e-5__gmm_4d__s1 10s
+[done] trainper__p1000__osm_2d__s1 106s
+[done] sel__a1e-4__gmm_4d__s1 9s
+[done] sel__a1e-3__gmm_4d__s1 10s
+[done] sel__a1e-2__gmm_4d__s1 12s
+[done] aspect__r0.125__gmm_4d__s1 10s
+[done] aspect__r0.25__gmm_4d__s1 10s
+[done] aspect__r1__gmm_4d__s1 10s
+[done] aspect__r4__gmm_4d__s1 10s
+[done] aspect__r8__gmm_4d__s1 10s
+[done] page__b64__gmm_4d__s1 10s
+[done] page__b128__gmm_4d__s1 10s
+[done] page__b256__gmm_4d__s1 10s
+[done] page__b512__gmm_4d__s1 9s
+[done] page__b1024__gmm_4d__s1 10s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s1 11s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s1 10s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s1 10s
+[done] shift__uniform-uniform__gmm_4d__s1 9s
+[done] scale__n1000000__gmm_4d__s1 19s
+[done] scale__n5000000__gmm_4d__s1 60s
+[done] trainper__p1__osm_2d__s1 1313s
+[done] trainper__p4__osm_2d__s2 411s
+[done] trainper__p20__osm_2d__s2 194s
+[done] trainper__p100__osm_2d__s2 166s
+[done] grid__k4__gmm_4d__s2 9s
+[done] sel__a1e-5__gmm_4d__s2 10s
+[done] sel__a1e-4__gmm_4d__s2 9s
+[done] sel__a1e-3__gmm_4d__s2 10s
+[done] trainper__p1000__osm_2d__s2 104s
+[done] sel__a1e-2__gmm_4d__s2 10s
+[done] aspect__r0.125__gmm_4d__s2 9s
+[done] aspect__r0.25__gmm_4d__s2 10s
+[done] aspect__r1__gmm_4d__s2 10s
+[done] aspect__r4__gmm_4d__s2 10s
+[done] aspect__r8__gmm_4d__s2 10s
+[done] page__b64__gmm_4d__s2 10s
+[done] page__b128__gmm_4d__s2 10s
+[done] page__b256__gmm_4d__s2 10s
+[done] page__b512__gmm_4d__s2 10s
+[done] page__b1024__gmm_4d__s2 9s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s2 10s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s2 10s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s2 10s
+[done] shift__uniform-uniform__gmm_4d__s2 10s
+[done] scale__n1000000__gmm_4d__s2 22s
+[done] scale__n5000000__gmm_4d__s2 60s
+[done] trainper__p1__osm_2d__s2 1287s
+[all done] results/exp_1110_extras
+[queue] sweeps seeds 3 4 13:24:37
+[plan] 110 cells, JOBS=3, CPUS=4-11
+[done] grid__k6__gmm_2d__s3 125s
+[done] grid__k6__osm_2d__s3 133s
+[done] grid__k8__osm_2d__s3 242s
+[done] grid__k8__gmm_2d__s3 252s
+[done] grid__k3__gmm_3d__s3 103s
+[done] grid__k4__gmm_3d__s3 104s
+[done] grid__k5__gmm_3d__s3 142s
+[done] grid__k6__gmm_3d__s3 463s
+[done] grid__k3__gmm_4d__s3 117s
+[done] grid__k4__gmm_4d__s3 177s
+[done] grid__k5__gmm_4d__s3 1082s
+[done] grid__k10__osm_2d__s3 2512s
+[done] grid__k3__gmm_5d__s3 160s
+[done] grid__k10__gmm_2d__s3 2604s
+[done] sel__a1e-5__osm_2d__s3 242s
+[done] sel__a1e-5__gmm_4d__s3 161s
+[done] sel__a1e-4__gmm_4d__s3 168s
+[done] sel__a1e-4__osm_2d__s3 222s
+[done] sel__a1e-3__gmm_4d__s3 175s
+[done] sel__a1e-3__osm_2d__s3 214s
+[done] grid__k4__gmm_5d__s3 894s
+[done] sel__a1e-2__osm_2d__s3 246s
+[done] sel__a1e-2__gmm_4d__s3 226s
+[done] shift__hotspot_mixture-hotspot_mixture__osm_2d__s3 222s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s3 167s
+[done] shift__hotspot_mixture-uniform__osm_2d__s3 246s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s3 178s
+[done] shift__uniform-hotspot_mixture__osm_2d__s3 256s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s3 173s
+[done] shift__uniform-uniform__osm_2d__s3 233s
+[done] shift__uniform-uniform__gmm_4d__s3 156s
+[done] aspect__r0.125__osm_2d__s3 234s
+[done] aspect__r0.125__gmm_4d__s3 159s
+[done] aspect__r0.25__osm_2d__s3 221s
+[done] aspect__r0.25__gmm_4d__s3 155s
+[done] aspect__r1__osm_2d__s3 225s
+[done] aspect__r1__gmm_4d__s3 161s
+[done] aspect__r4__osm_2d__s3 230s
+[done] aspect__r4__gmm_4d__s3 164s
+[done] aspect__r8__gmm_4d__s3 146s
+[done] aspect__r8__osm_2d__s3 232s
+[done] page__b64__gmm_4d__s3 161s
+[done] page__b64__osm_2d__s3 245s
+[done] page__b128__osm_2d__s3 235s
+[done] page__b128__gmm_4d__s3 165s
+[done] page__b256__osm_2d__s3 224s
+[done] page__b256__gmm_4d__s3 161s
+[done] page__b512__osm_2d__s3 214s
+[done] page__b512__gmm_4d__s3 154s
+[done] page__b1024__osm_2d__s3 232s
+[done] page__b1024__gmm_4d__s3 158s
+[done] train__t20__osm_2d__s3 218s
+[done] train__t60__osm_2d__s3 219s
+[done] train__t120__osm_2d__s3 228s
+[done] grid__k6__osm_2d__s4 119s
+[done] train__t240__osm_2d__s3 270s
+[done] grid__k6__gmm_2d__s4 114s
+[done] grid__k8__osm_2d__s4 246s
+[done] grid__k8__gmm_2d__s4 223s
+[done] grid__k3__gmm_3d__s4 94s
+[done] grid__k4__gmm_3d__s4 100s
+[done] grid__k5__gmm_3d__s4 141s
+[done] grid__k6__gmm_3d__s4 459s
+[done] grid__k3__gmm_4d__s4 110s
+[done] grid__k4__gmm_4d__s4 169s
+[done] grid__k5__gmm_4d__s4 1052s
+[done] grid__k3__gmm_5d__s4 119s
+[done] grid__k10__gmm_2d__s4 2580s
+[done] grid__k10__osm_2d__s4 2783s
+[done] sel__a1e-5__gmm_4d__s4 136s
+[done] sel__a1e-5__osm_2d__s4 204s
+[done] sel__a1e-4__gmm_4d__s4 139s
+[done] sel__a1e-4__osm_2d__s4 212s
+[done] grid__k4__gmm_5d__s4 821s
+[done] sel__a1e-3__gmm_4d__s4 170s
+[done] sel__a1e-3__osm_2d__s4 213s
+[done] sel__a1e-2__gmm_4d__s4 216s
+[done] sel__a1e-2__osm_2d__s4 242s
+[done] shift__hotspot_mixture-hotspot_mixture__osm_2d__s4 241s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s4 159s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s4 158s
+[done] shift__hotspot_mixture-uniform__osm_2d__s4 273s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s4 151s
+[done] shift__uniform-hotspot_mixture__osm_2d__s4 250s
+[done] shift__uniform-uniform__gmm_4d__s4 143s
+[done] shift__uniform-uniform__osm_2d__s4 230s
+[done] aspect__r0.125__osm_2d__s4 221s
+[done] aspect__r0.125__gmm_4d__s4 148s
+[done] aspect__r0.25__osm_2d__s4 234s
+[done] aspect__r0.25__gmm_4d__s4 140s
+[done] aspect__r1__osm_2d__s4 234s
+[done] aspect__r1__gmm_4d__s4 151s
+[done] aspect__r4__osm_2d__s4 229s
+[done] aspect__r4__gmm_4d__s4 156s
+[done] aspect__r8__osm_2d__s4 220s
+[done] aspect__r8__gmm_4d__s4 146s
+[done] page__b64__gmm_4d__s4 161s
+[done] page__b64__osm_2d__s4 250s
+[done] page__b128__osm_2d__s4 260s
+[done] page__b128__gmm_4d__s4 162s
+[done] page__b256__osm_2d__s4 243s
+[done] page__b256__gmm_4d__s4 154s
+[done] page__b512__osm_2d__s4 235s
+[done] page__b512__gmm_4d__s4 155s
+[done] page__b1024__osm_2d__s4 241s
+[done] page__b1024__gmm_4d__s4 152s
+[done] train__t20__osm_2d__s4 216s
+[done] train__t60__osm_2d__s4 232s
+[done] train__t120__osm_2d__s4 246s
+[done] train__t240__osm_2d__s4 275s
+[all done] results/exp_1110_sweeps
+[queue] meta seeds 3 4 16:36:38
+[plan] 46 cells, JOBS=3, CPUS=4-11
+[done] sel__a1e-5__gmm_4d__s3 10s
+[done] sel__a1e-4__gmm_4d__s3 10s
+[done] grid__k4__gmm_4d__s3 10s
+[done] aspect__r0.125__gmm_4d__s3 9s
+[done] sel__a1e-3__gmm_4d__s3 10s
+[done] sel__a1e-2__gmm_4d__s3 10s
+[done] aspect__r0.25__gmm_4d__s3 10s
+[done] aspect__r1__gmm_4d__s3 9s
+[done] aspect__r4__gmm_4d__s3 10s
+[done] aspect__r8__gmm_4d__s3 11s
+[done] page__b64__gmm_4d__s3 11s
+[done] page__b128__gmm_4d__s3 11s
+[done] page__b256__gmm_4d__s3 10s
+[done] page__b512__gmm_4d__s3 11s
+[done] page__b1024__gmm_4d__s3 11s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s3 12s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s3 11s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s3 12s
+[done] shift__uniform-uniform__gmm_4d__s3 11s
+[done] scale__n1000000__gmm_4d__s3 25s
+[done] scale__n5000000__gmm_4d__s3 76s
+[done] grid__k4__gmm_4d__s4 10s
+[done] sel__a1e-5__gmm_4d__s4 10s
+[done] sel__a1e-4__gmm_4d__s4 10s
+[done] sel__a1e-3__gmm_4d__s4 10s
+[done] sel__a1e-2__gmm_4d__s4 11s
+environment: 第 1 行： 679491 已杀死               systemd-run --user --scope -q -p MemoryMax="${MEM_GB}G" -p MemorySwapMax=0 nice -n 10 timeout --kill-after=30 "${CELL_TIMEOUT}" "${cmd[@]}" > "${log}" 2>&1
+[FAIL rc=137] scale__n20000000__gmm_4d__s3 107s (see results/exp_1110_extras/logs/scale__n20000000__gmm_4d__s3.log)
+[done] aspect__r0.125__gmm_4d__s4 10s
+[done] aspect__r0.25__gmm_4d__s4 10s
+[done] scale__n10000000__gmm_4d__s3 132s
+[done] aspect__r1__gmm_4d__s4 10s
+[done] aspect__r4__gmm_4d__s4 9s
+[done] aspect__r8__gmm_4d__s4 9s
+[done] page__b64__gmm_4d__s4 10s
+[done] page__b128__gmm_4d__s4 10s
+[done] page__b256__gmm_4d__s4 10s
+[done] page__b512__gmm_4d__s4 10s
+[done] page__b1024__gmm_4d__s4 10s
+[done] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s4 11s
+[done] shift__hotspot_mixture-uniform__gmm_4d__s4 10s
+[done] shift__uniform-hotspot_mixture__gmm_4d__s4 10s
+[done] shift__uniform-uniform__gmm_4d__s4 9s
+[done] scale__n1000000__gmm_4d__s4 23s
+[done] scale__n5000000__gmm_4d__s4 88s
+environment: 第 1 行： 680199 已杀死               systemd-run --user --scope -q -p MemoryMax="${MEM_GB}G" -p MemorySwapMax=0 nice -n 10 timeout --kill-after=30 "${CELL_TIMEOUT}" "${cmd[@]}" > "${log}" 2>&1
+[FAIL rc=137] scale__n20000000__gmm_4d__s4 106s (see results/exp_1110_extras/logs/scale__n20000000__gmm_4d__s4.log)
+[done] scale__n10000000__gmm_4d__s4 141s
+[all done] results/exp_1110_extras
+[queue] meta seed0 large N 16:43:03
+[plan] 23 cells, JOBS=2, CPUS=4-11
+[skip] grid__k4__gmm_4d__s0
+[skip] sel__a1e-5__gmm_4d__s0
+[skip] sel__a1e-4__gmm_4d__s0
+[skip] sel__a1e-3__gmm_4d__s0
+[skip] sel__a1e-2__gmm_4d__s0
+[skip] aspect__r0.125__gmm_4d__s0
+[skip] aspect__r0.25__gmm_4d__s0
+[skip] aspect__r1__gmm_4d__s0
+[skip] aspect__r4__gmm_4d__s0
+[skip] aspect__r8__gmm_4d__s0
+[skip] page__b64__gmm_4d__s0
+[skip] page__b128__gmm_4d__s0
+[skip] page__b256__gmm_4d__s0
+[skip] page__b512__gmm_4d__s0
+[skip] page__b1024__gmm_4d__s0
+[skip] shift__hotspot_mixture-hotspot_mixture__gmm_4d__s0
+[skip] shift__hotspot_mixture-uniform__gmm_4d__s0
+[skip] shift__uniform-hotspot_mixture__gmm_4d__s0
+[skip] shift__uniform-uniform__gmm_4d__s0
+[done] scale__n2000000__gmm_4d__s0 32s
+[done] scale__n10000000__gmm_4d__s0 128s
+[done] scale__n15000000__gmm_4d__s0 188s
+[done] scale__n20000000__gmm_4d__s0 201s
+[all done] results/exp_1110_extras
+[queue] chain done 16:48:32

@@ -1,0 +1,302 @@
+[skip] exp_0530:C:osm_2d:n2000000:mixed:z:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:hilbert:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lmsfc_bo:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:piecewise:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:bitallocz_bo:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_h:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_opt:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_meta:s0 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:z:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:hilbert:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lmsfc_bo:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:piecewise:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:bitallocz_bo:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_h:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_opt:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_meta:s1 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:z:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:hilbert:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lmsfc_bo:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:piecewise:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:bitallocz_bo:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_h:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_opt:s2 completed
+[skip] exp_0530:C:osm_2d:n2000000:mixed:lacsfc_meta:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:z:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:hilbert:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lmsfc_bo:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:piecewise:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:bitallocz_bo:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_h:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_opt:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_meta:s0 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:z:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:hilbert:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lmsfc_bo:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:piecewise:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:bitallocz_bo:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_h:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_opt:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_meta:s1 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:z:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:hilbert:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lmsfc_bo:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:piecewise:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:bitallocz_bo:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_h:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_opt:s2 completed
+[skip] exp_0530:C:osm_2d:n15000000:mixed:lacsfc_meta:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:z:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:hilbert:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lmsfc_bo:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:piecewise:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:bitallocz_bo:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_h:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_opt:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_meta:s0 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:z:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:hilbert:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lmsfc_bo:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:piecewise:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:bitallocz_bo:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_h:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_opt:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_meta:s1 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:z:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:hilbert:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lmsfc_bo:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:piecewise:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:bitallocz_bo:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_h:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_opt:s2 completed
+[skip] exp_0530:C:osm_2d:n20000000:mixed:lacsfc_meta:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:z:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:hilbert:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lmsfc_bo:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:piecewise:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:bitallocz_bo:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_h:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_opt:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_meta:s0 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:z:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:hilbert:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lmsfc_bo:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:piecewise:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:bitallocz_bo:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_h:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_opt:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_meta:s1 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:z:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:hilbert:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lmsfc_bo:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:piecewise:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:bitallocz_bo:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_h:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_opt:s2 completed
+[skip] exp_0530:C:osm_3d:n2000000:mixed:lacsfc_meta:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:z:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:hilbert:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lmsfc_bo:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:piecewise:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:bitallocz_bo:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_h:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_opt:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_meta:s0 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:z:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:hilbert:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lmsfc_bo:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:piecewise:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:bitallocz_bo:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_h:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_opt:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_meta:s1 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:z:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:hilbert:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lmsfc_bo:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:piecewise:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:bitallocz_bo:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_h:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_opt:s2 completed
+[skip] exp_0530:C:osm_3d:n15000000:mixed:lacsfc_meta:s2 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:z:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:hilbert:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:lmsfc_bo:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:piecewise:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:bitallocz_bo:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_h:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_opt:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_meta:s0 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:z:s1 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:hilbert:s1 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:lmsfc_bo:s1 completed
+[skip] exp_0530:C:osm_3d:n20000000:mixed:piecewise:s1 completed
+[run] exp_0530:C:osm_3d:n20000000:mixed:bitallocz_bo:s1 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:bitallocz_bo:s1 ok wall=1129s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_h:s1 token=lacsfc_h cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_h:s1 ok wall=87s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_opt:s1 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_opt:s1 ok wall=105s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_meta:s1 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_meta:s1 ok wall=107s
+[run] exp_0530:C:osm_3d:n20000000:mixed:z:s2 token=z cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:z:s2 ok wall=47s
+[run] exp_0530:C:osm_3d:n20000000:mixed:hilbert:s2 token=hilbert_nd cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:hilbert:s2 ok wall=93s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lmsfc_bo:s2 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lmsfc_bo:s2 ok wall=650s
+[run] exp_0530:C:osm_3d:n20000000:mixed:piecewise:s2 token=piecewise cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:piecewise:s2 ok wall=258s
+[run] exp_0530:C:osm_3d:n20000000:mixed:bitallocz_bo:s2 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:bitallocz_bo:s2 ok wall=1132s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_h:s2 token=lacsfc_h cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_h:s2 ok wall=76s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_opt:s2 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_opt:s2 ok wall=89s
+[run] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_meta:s2 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:osm_3d:n20000000:mixed:lacsfc_meta:s2 ok wall=87s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:z:s0 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:z:s0 ok wall=8s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:hilbert:s0 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:hilbert:s0 ok wall=13s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lmsfc_bo:s0 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lmsfc_bo:s0 ok wall=70s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:piecewise:s0 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:piecewise:s0 ok wall=25s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:bitallocz_bo:s0 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:bitallocz_bo:s0 ok wall=136s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_h:s0 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_h:s0 ok wall=10s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_opt:s0 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_opt:s0 ok wall=18s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_meta:s0 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_meta:s0 ok wall=19s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:z:s1 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:z:s1 ok wall=7s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:hilbert:s1 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:hilbert:s1 ok wall=11s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lmsfc_bo:s1 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lmsfc_bo:s1 ok wall=70s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:piecewise:s1 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:piecewise:s1 ok wall=27s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:bitallocz_bo:s1 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:bitallocz_bo:s1 ok wall=135s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_h:s1 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_h:s1 ok wall=11s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_opt:s1 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_opt:s1 ok wall=18s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_meta:s1 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_meta:s1 ok wall=21s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:z:s2 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:z:s2 ok wall=9s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:hilbert:s2 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:hilbert:s2 ok wall=14s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lmsfc_bo:s2 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lmsfc_bo:s2 ok wall=72s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:piecewise:s2 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:piecewise:s2 ok wall=28s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:bitallocz_bo:s2 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:bitallocz_bo:s2 ok wall=138s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_h:s2 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_h:s2 ok wall=15s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_opt:s2 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_opt:s2 ok wall=23s
+[run] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_meta:s2 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n2000000:mixed:lacsfc_meta:s2 ok wall=25s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:z:s0 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:z:s0 ok wall=85s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:hilbert:s0 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:hilbert:s0 ok wall=124s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lmsfc_bo:s0 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lmsfc_bo:s0 ok wall=494s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:piecewise:s0 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:piecewise:s0 ok wall=204s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:bitallocz_bo:s0 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:bitallocz_bo:s0 ok wall=1118s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_h:s0 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_h:s0 ok wall=99s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_opt:s0 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_opt:s0 ok wall=113s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_meta:s0 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_meta:s0 ok wall=121s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:z:s1 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:z:s1 ok wall=95s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:hilbert:s1 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:hilbert:s1 ok wall=122s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lmsfc_bo:s1 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lmsfc_bo:s1 ok wall=502s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:piecewise:s1 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:piecewise:s1 ok wall=218s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:bitallocz_bo:s1 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:bitallocz_bo:s1 ok wall=1024s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_h:s1 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_h:s1 ok wall=71s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_opt:s1 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_opt:s1 ok wall=96s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_meta:s1 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_meta:s1 ok wall=92s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:z:s2 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:z:s2 ok wall=61s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:hilbert:s2 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:hilbert:s2 ok wall=137s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lmsfc_bo:s2 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lmsfc_bo:s2 ok wall=534s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:piecewise:s2 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:piecewise:s2 ok wall=210s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:bitallocz_bo:s2 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:bitallocz_bo:s2 ok wall=1024s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_h:s2 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_h:s2 ok wall=76s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_opt:s2 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_opt:s2 ok wall=101s
+[run] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_meta:s2 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n15000000:mixed:lacsfc_meta:s2 ok wall=103s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:z:s0 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:z:s0 ok wall=72s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:hilbert:s0 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:hilbert:s0 ok wall=155s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lmsfc_bo:s0 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lmsfc_bo:s0 ok wall=693s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:piecewise:s0 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:piecewise:s0 ok wall=286s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:bitallocz_bo:s0 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:bitallocz_bo:s0 ok wall=1582s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_h:s0 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_h:s0 ok wall=181s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_opt:s0 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_opt:s0 ok wall=236s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_meta:s0 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_meta:s0 ok wall=181s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:z:s1 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:z:s1 ok wall=116s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:hilbert:s1 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:hilbert:s1 ok wall=168s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lmsfc_bo:s1 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lmsfc_bo:s1 ok wall=804s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:piecewise:s1 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:piecewise:s1 ok wall=264s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:bitallocz_bo:s1 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:bitallocz_bo:s1 ok wall=1356s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_h:s1 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_h:s1 ok wall=87s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_opt:s1 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_opt:s1 ok wall=102s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_meta:s1 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_meta:s1 ok wall=105s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:z:s2 token=z cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:z:s2 ok wall=67s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:hilbert:s2 token=hilbert_nd cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:hilbert:s2 ok wall=120s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lmsfc_bo:s2 token=lmsfc_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lmsfc_bo:s2 ok wall=621s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:piecewise:s2 token=piecewise cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:piecewise:s2 ok wall=246s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:bitallocz_bo:s2 token=bitallocz_bo cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:bitallocz_bo:s2 ok wall=1337s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_h:s2 token=lacsfc_h cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_h:s2 ok wall=92s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_opt:s2 token=lacsfc_opt cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_opt:s2 ok wall=117s
+[run] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_meta:s2 token=lacsfc_meta cap=2400s
+[done] exp_0530:C:gmm_4d:n20000000:mixed:lacsfc_meta:s2 ok wall=125s
+[done] wrote EXP-0530 summary to results/exp_0530_layerC_scale_stage2_v1/summary
+[done] EXP-0530 layer=C results under results/exp_0530_layerC_scale_stage2_v1

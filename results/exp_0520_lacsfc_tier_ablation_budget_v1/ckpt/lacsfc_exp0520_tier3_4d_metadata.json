@@ -1,0 +1,18 @@
+{
+  "model_name": "lacsfc_exp0520_tier3_4d",
+  "K": 4,
+  "d": 4,
+  "seed": 0,
+  "feat_dim": 19,
+  "num_edges": 14336,
+  "tasks": 24,
+  "queries_per_task": 24,
+  "hidden": 128,
+  "layers": 3,
+  "gen_warmstart_epochs": 12,
+  "pretrain_evaluator": false,
+  "eval_info": {},
+  "meta_epochs": 0,
+  "meta_log_keys": [],
+  "elapsed_s": 10.929488897323608
+}

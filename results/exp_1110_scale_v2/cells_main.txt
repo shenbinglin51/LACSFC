@@ -1,0 +1,24 @@
+scale|n1000000|osm_2d|0|8|256||||hotspot_mixture|hotspot_mixture|--n 1000000 --require-n --train-per 20 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n1000000|osm_3d|0|5|128||||hotspot_mixture|hotspot_mixture|--n 1000000 --require-n --train-per 20 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n1000000|gmm_4d|0|4|128||||hotspot_mixture|hotspot_mixture|--n 1000000 --train-per 20 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n5000000|osm_2d|0|8|256||||hotspot_mixture|hotspot_mixture|--n 5000000 --require-n --train-per 100 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n5000000|osm_3d|0|5|128||||hotspot_mixture|hotspot_mixture|--n 5000000 --require-n --train-per 100 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n5000000|gmm_4d|0|4|128||||hotspot_mixture|hotspot_mixture|--n 5000000 --train-per 100 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n10000000|osm_2d|0|8|256||||hotspot_mixture|hotspot_mixture|--n 10000000 --require-n --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves row,column,z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n10000000|osm_3d|0|5|128||||hotspot_mixture|hotspot_mixture|--n 10000000 --require-n --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n10000000|gmm_4d|0|4|128||||hotspot_mixture|hotspot_mixture|--n 10000000 --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n20000000|osm_2d|0|8|256||||hotspot_mixture|hotspot_mixture|--n 20000000 --require-n --train-per 400 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves row,column,z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n20000000|osm_3d|0|5|128||||hotspot_mixture|hotspot_mixture|--n 20000000 --require-n --train-per 400 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n20000000|gmm_4d|0|4|128||||hotspot_mixture|hotspot_mixture|--n 20000000 --train-per 400 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n1000000|osm_2d|1|8|256||||hotspot_mixture|hotspot_mixture|--n 1000000 --require-n --train-per 20 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n1000000|osm_3d|1|5|128||||hotspot_mixture|hotspot_mixture|--n 1000000 --require-n --train-per 20 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n1000000|gmm_4d|1|4|128||||hotspot_mixture|hotspot_mixture|--n 1000000 --train-per 20 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n5000000|osm_2d|1|8|256||||hotspot_mixture|hotspot_mixture|--n 5000000 --require-n --train-per 100 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n5000000|osm_3d|1|5|128||||hotspot_mixture|hotspot_mixture|--n 5000000 --require-n --train-per 100 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n5000000|gmm_4d|1|4|128||||hotspot_mixture|hotspot_mixture|--n 5000000 --train-per 100 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 
+scale|n10000000|osm_2d|1|8|256||||hotspot_mixture|hotspot_mixture|--n 10000000 --require-n --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves row,column,z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n10000000|osm_3d|1|5|128||||hotspot_mixture|hotspot_mixture|--n 10000000 --require-n --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n10000000|gmm_4d|1|4|128||||hotspot_mixture|hotspot_mixture|--n 10000000 --train-per 200 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n20000000|osm_2d|1|8|256||||hotspot_mixture|hotspot_mixture|--n 20000000 --require-n --train-per 400 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves row,column,z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n20000000|osm_3d|1|5|128||||hotspot_mixture|hotspot_mixture|--n 20000000 --require-n --train-per 400 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt
+scale|n20000000|gmm_4d|1|4|128||||hotspot_mixture|hotspot_mixture|--n 20000000 --train-per 400 --bitallocz-bo-init 5 --bitallocz-bo-iters 16 --curves z,hilbert,lmsfc_std,lmsfc_bo,bitallocz_bo,piecewise,gbo,quilts,lacsfc_h,lacsfc_opt

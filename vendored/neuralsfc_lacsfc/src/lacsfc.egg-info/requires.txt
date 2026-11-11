@@ -1,0 +1,10 @@
+numpy>=1.24
+
+[dev]
+pytest>=7
+
+[exp]
+ortools>=9.10
+
+[fast]
+numba>=0.60

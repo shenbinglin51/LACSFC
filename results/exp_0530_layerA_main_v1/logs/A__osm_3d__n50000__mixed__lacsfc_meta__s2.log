@@ -1,0 +1,14 @@
+Warning: LACSFC meta warm-start failed: RuntimeError:Error(s) in loading state_dict for EdgeWeightGenerator:
+	size mismatch for net.0.weight: copying a param with shape torch.Size([128, 19]) from checkpoint, the shape in current model is torch.Size([128, 18]).. Falling back to CMA-ES.
+Optimising LACSFC-Opt (CMA-ES: sigma0=0.25, max_evals=1, popsize=20, n_queries=40, real_pts=yes)...
+[CMA-ES] mode=block_space, n_edges=1344, b=128, n_queries=40, init_objective=24.5946, sigma0=0.25, max_evals=1
+[CMA-ES] block_space n_blocks=512, block_init_objective=20.1399
+  evals=  22  best_objective=16.4593  sigma=0.2519
+[CMA-ES] done: evals=22, final_objective=16.4593, improvement=+18.3%
+CMA-ES optimisation completed in 1.1s
+Optimised weights: min=0.0000, max=1.0000, mean=0.0198, std=0.0830
+Initializing query processor: brq (AC-BRQ v2)...
+n=50000 qn_total=80 qn_train=40 qn_test=40 k=4 b=128 seed=2 repeat=1
+curve              cfg        build_s            query_s            avg_pages          avg_seg            avg_page_amp         t_int              t_lookup           t_filter           t_total            scan               pass_code          pass_cell          hit_seg            page_cnt           pg_intv            slice_cnt          slice_len          empty_slice
+-----              ---        -------            -------            ---------          -------            ------------         -----              --------           --------           -------            ----               ---------          ---------          -------            --------           -------            ---------          ---------          -----------
+LACSFC-Meta        -          0.0768±0.0000      0.0238±0.0000      6.3750±0.0000      2.6000±0.0000      5.102500±0.000000    0.0017±0.0000      0.0004±0.0000      0.0209±0.0000      0.0230±0.0000      501.38±0.00        501.38±0.00        69.55±0.00         1.98±0.00          6.38±0.00          6.67±0.00          6.67±0.00          56.94±0.00         0.33±0.00
